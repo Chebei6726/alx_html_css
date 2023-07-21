@@ -2,19 +2,20 @@
 body{
     display:flex;
     flex-direction: column;
-}    
-body,main{
+    background-color: burlywood;
+}   
+.main{
     display: flex;
     flex-direction: row;
     flex: auto;
 }
 
-body,main,article{
+.article{
     flex: 2;
     overflow-y: auto
 
 }
-body, main,aside{
+.article{
     overflow-y: auto;
     flex: 1;
 }
