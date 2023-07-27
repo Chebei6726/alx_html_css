@@ -1,19 +1,9 @@
+
 body{
-    display: flex
-    
-
-}
-
-main{
     display: flex;
-    flex-direction: row;
-
 }
-
-.article{
-    display:flex
-
-}
-aside{
-    overflow-y: auto
+.article {
+    justify-content: flex-end;
+    margin:0;
+    padding: 0;
 }
