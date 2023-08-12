@@ -1,5 +1,6 @@
 
 body{
+<<<<<<< HEAD
     display: flex;
 }
 .article {
@@ -7,3 +8,24 @@ body{
     margin:0;
     padding: 0;
 }
+=======
+    display:flex;
+    flex-direction: column;
+    background-color: burlywood;
+}   
+.main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.article{
+    flex: 2;
+    overflow-y: auto
+
+}
+.article{
+    overflow-y: auto;
+    flex: 1;
+}
+>>>>>>> 7cdaa70dfc4b8d28004c0cfdb60b182e3cbc150a
